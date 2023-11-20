@@ -14,6 +14,10 @@ def about():
 def login():
     return render_template('login.html')
 
+@app.route('/registration')
+def registration():
+    return render_template('registration.html')
+
 
 
 if __name__ == '__main__':
